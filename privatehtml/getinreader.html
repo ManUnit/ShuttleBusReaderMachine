@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+    <title>2FL Exchange</title>
+    <style>
+    a {
+        color: hotpink;
+    }
+
+    li:hover {
+        background-color: #fafafa;
+    }
+    </style>
+</head>
+
+<body>
+<a href="/" > home |</a>
+<a href="/readtogetin" > Reader to get in shuttle |</a>
+<a href="/registor" > registor |</a>
+<a href="/getnewkey" >new key |</a>
+<a href="/sbalance" > shutblance </a>
+
+<br>
+<h3> DEMO ! Shuttle bus reader machine </h3>
+ <div style="margin-left:10px;">
+        <section class="row">
+            <section class="col-12 col-sm-4 col-md-3">
+                <form method='post' action="/readtogetin">
+                    <div class="form-group">
+                        <label for="InputKhonjon">Free ID of passenger  </label>
+                        <input type="text" name="userID" class="form-control" id="khonjonid"  placeholder="gov offer get in ID">
+                    </div>
+                    <div class="form-group">
+                        <label for="InputShuttle">Shutle bus Private key </label>
+                        <input type="text" name="shuttlekey" class="form-control" id="shuttleID" placeholder=" Private Shuttle bus privte KEY">
+                    </div>
+                    <div class="form-group">                        
+                    <div class="col" id="cha_res"> </div>                    
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                </form>
+            </section>
+        </section>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js " integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49 " crossorigin="anonymous "></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+</body>
+</html>
